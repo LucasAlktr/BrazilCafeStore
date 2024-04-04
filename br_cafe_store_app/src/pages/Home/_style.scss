@@ -1,0 +1,72 @@
+// HOME
+.home-main {
+    background-color: $primary-color;
+  }
+  
+  .home {
+    @include center();
+    @include flex(center);
+    @include banner('../../public/assets/banner-home.png');
+    height: 100vh;
+    background-size: 80vh;
+    padding-top: 0px;
+  
+    h1 {
+      @include title-1();
+    }
+  }
+  
+  //MENU
+  
+  .home-menu,
+  .home-place,
+  .home-about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+    picture img {
+      width: 100%;
+    }
+  
+    .home-text {
+      text-align: center;
+      margin: auto;
+      max-width: 50ch;
+      padding: 20px;
+  
+      p + p {
+        margin-top: 50px;
+        text-align: left;
+      }
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .home-menu,
+    .home-place,
+    .home-about {
+      display: grid;
+      grid-template-columns: 1fr;
+  
+      picture {
+        grid-row: 1;
+      }
+  
+      .home-text {
+        padding: 80px 25px;
+      }
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .home {
+      background-size: 60vh;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .home h1 {
+      font-size: 2.5rem;
+    }
+  }
+  

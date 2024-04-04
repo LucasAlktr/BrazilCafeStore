@@ -1,0 +1,49 @@
+.about-div {
+    @include flex(center);
+    @include banner('../../public/assets/banner-sobre.png');
+  
+    h1 {
+      @include title-1();
+    }
+  }
+  
+  .about-section {
+    @include center();
+    @include text-space();
+  
+    h2 {
+      @include title-2();
+      margin-bottom: 0px;
+    }
+  
+    h2 + p {
+      margin-bottom: 50px;
+    }
+  
+    p + p {
+      margin-top: 25px;
+    }
+  }
+  
+  .about-pic {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+    picture {
+      display: inline-block;
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .about-pic {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .about-div h1 {
+      font-size: 2.5rem;
+    }
+  }
+  

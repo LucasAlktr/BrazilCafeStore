@@ -4,7 +4,7 @@ import Home from '../pages/Home';
 import Menu from '../pages/Menu';
 import About from '../pages/About';
 
-const siteRoutes = () => {
+const MySiteRoutes = () => {
   return (
     <HashRouter>
       <Routes>
@@ -16,4 +16,4 @@ const siteRoutes = () => {
   );
 };
 
-export default siteRoutes;
+export default MySiteRoutes;
