@@ -1,5 +1,6 @@
 import React from 'react';
 
+import './_style.scss';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 

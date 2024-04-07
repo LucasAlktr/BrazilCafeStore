@@ -1,3 +1,5 @@
+@import "../../scss/global";
+
 .about-div {
     @include flex(center);
     @include banner('../../public/assets/banner-sobre.png');
