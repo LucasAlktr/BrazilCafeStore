@@ -21,7 +21,7 @@ const Home = () => {
           />
         </picture>
         <div className="home-text">
-          <h2>OUR CAFE FLAVOUR</h2>
+          <h2 className='sub-title'>OUR CAFE FLAVOUR</h2>
           <p>
             <strong>Welcome to Brazilian Cafe!</strong>
           </p>
@@ -33,7 +33,7 @@ const Home = () => {
 
       <section className="home-place">
         <div className="home-text">
-          <h2>A PLACE TO BE</h2>
+          <h2 className='sub-title'>A PLACE TO BE</h2>
           <p>
             <strong>A Place to Work, Connect, and Unwind.</strong>
           </p>
@@ -51,7 +51,7 @@ const Home = () => {
           <img src="./assets/aboutusimage.jpg" alt="About us image" />
         </picture>
         <div className="home-text">
-          <h2>ABOUT US</h2>
+          <h2 className='sub-title'>ABOUT US</h2>
           <p>
             <strong>From Our Family to Yours</strong>
           </p>

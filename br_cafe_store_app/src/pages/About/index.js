@@ -14,7 +14,7 @@ const About = () => {
       </main>
 
       <section className="about-section">
-        <h2>About Us</h2>
+        <h2>ABOUT US</h2>
         <p>
           <strong>We simple love coffee!</strong>
         </p>

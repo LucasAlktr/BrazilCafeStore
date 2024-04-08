@@ -3,11 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;;
   }
   
   $primary-color: #E8D8C4;
-  $hover: #561C24;
+  $hover: #FAEED1;
   
   @mixin center() {
     max-width: 1200px;
@@ -43,7 +43,7 @@
   }
   
   @mixin title-2() {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 50px;
   }
   
