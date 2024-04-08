@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <header>
+    <header className="transparent-header">
       <div className="header center">
         <picture>
           <img src="/assets/logo.png" alt="Brazilian Cafe" />

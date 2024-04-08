@@ -2,10 +2,17 @@
 
 .about-div {
     @include flex(center);
-    @include banner('../../public/assets/banner-sobre.png');
+    @include banner('../../public/assets/banner-about-us.jpg');
   
     h1 {
       @include title-1();
+    }
+
+    .about-span{
+      color: #009c3b;
+    }
+    .us-span{
+      color: #ffdf00;
     }
   }
   

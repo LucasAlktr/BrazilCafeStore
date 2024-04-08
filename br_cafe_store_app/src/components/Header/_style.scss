@@ -5,6 +5,11 @@ header {
     position: fixed;
     width: 100%;
   }
+
+  .transparent-header {
+    background-color: rgba(232, 216, 196, 0.2); 
+    backdrop-filter: blur(10px); 
+  }
   
   .header {
     @include center();

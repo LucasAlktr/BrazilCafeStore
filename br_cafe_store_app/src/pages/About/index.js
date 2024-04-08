@@ -9,7 +9,7 @@ const About = () => {
       <Header />
       <main className="about-main">
         <div className="about-div">
-          <h1>THE BRAZILIAN CAFE</h1>
+          <h1><span className='about-span'>About</span> <span className='us-span'>Us</span></h1>
         </div>
       </main>
 
@@ -28,10 +28,10 @@ const About = () => {
 
       <section className="about-pic">
         <picture>
-          <img src="./assets/sobre-image.jpg" alt="people drink coffee" />
+          <img src="./assets/coffee-cups.jpg" alt="people drink coffee" />
         </picture>
         <picture>
-          <img src="./assets/sorveteria.jpg" alt="Brazilian Cafe Store" />
+          <img src="./assets/open-image.jpg" alt="Brazilian Cafe Store" />
         </picture>
       </section>
       <Footer />

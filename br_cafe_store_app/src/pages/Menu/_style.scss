@@ -2,10 +2,17 @@
 
 .menu {
     @include flex(center);
-    @include banner('../../public/assets/banner-sabores.jpg');
+    @include banner('../../public/assets/banner-our-flavour.jpg');
   
     h1 {
       @include title-1();
+    }
+
+    .our-text{
+      color: #009c3b;
+    }
+    .flavour-text{
+      color: #ffdf00;
     }
   }
   

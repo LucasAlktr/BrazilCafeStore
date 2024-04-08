@@ -10,16 +10,14 @@ const Home = () => {
       <Header />
 
       <main className="home-main">
-        <div className="home">
-          <h1>Brazilian Cafe</h1>
-        </div>
+          <h1><span className='brazilian-name'>The Brazilian </span><span className='cafe-name'>Cafe</span></h1>
       </main>
 
       <section className="home-menu">
         <picture>
           <img
-            src="./assets/banner-sabores.jpg"
-            alt="Sorvete de diversos sabores"
+            src="./assets/banner-flavour.jpg"
+            alt="Our coffee flavour"
           />
         </picture>
         <div className="home-text">
@@ -44,13 +42,13 @@ const Home = () => {
           </p>
         </div>
         <picture>
-          <img src="./assets/eventos-image.jpg" alt="Sorvete para enventos" />
+          <img src="./assets/banner-place.jpg" alt="A place to be image" />
         </picture>
       </section>
 
       <section className="home-about">
         <picture>
-          <img src="./assets/sobre-image.jpg" alt="Amigos tomando sorvete" />
+          <img src="./assets/aboutusimage.jpg" alt="About us image" />
         </picture>
         <div className="home-text">
           <h2>ABOUT US</h2>
