@@ -42,13 +42,13 @@ const Home = () => {
           </p>
         </div>
         <picture>
-          <img src="./assets/banner-place.jpg" alt="A place to be image" />
+          <img src="./assets/banner-place.jpg" alt="A place to be" />
         </picture>
       </section>
 
       <section className="home-about">
         <picture>
-          <img src="./assets/aboutusimage.jpg" alt="About us image" />
+          <img src="./assets/aboutusimage.jpg" alt="About us" />
         </picture>
         <div className="home-text">
           <h2 className='sub-title'>ABOUT US</h2>

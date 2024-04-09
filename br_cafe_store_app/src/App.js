@@ -1,5 +1,4 @@
 import React from 'react';
-import './scss/main.css';
 import MySiteRoutes from './routes';
 
 function App() {
