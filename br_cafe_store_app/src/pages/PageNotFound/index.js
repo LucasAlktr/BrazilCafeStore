@@ -1,7 +1,7 @@
 import React from "react";
 import './style.scss'
 
-export default function PageNotFound() {
+const PageNotFound = () => { 
     return(
     <>
         <div className="container-error-page">
@@ -12,4 +12,4 @@ export default function PageNotFound() {
     );
 }
 
-
+export default PageNotFound;
