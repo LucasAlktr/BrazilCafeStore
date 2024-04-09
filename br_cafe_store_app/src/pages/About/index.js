@@ -2,6 +2,8 @@ import React from 'react';
 import './_styles.scss';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import GoogleMapsAPI from '../services/GoogleMapsAPI';
+
 
 const About = () => {
   return (
@@ -24,6 +26,13 @@ const About = () => {
         <p>
         Our journey began with a deep love for Brazilian coffee and a desire to create a space where people could come together to savor the authentic flavors of Brazil while connecting with friends, family, and colleagues. Drawing inspiration from the bustling cafes of São Paulo and the tranquil beaches of Bahia, we set out to bring a taste of Brazil to London.
         </p>
+      </section>
+
+      <section>
+        <div className='map-container'>
+          <h2>VISIT US:</h2>
+           <GoogleMapsAPI />
+        </div>
       </section>
 
       <section className="about-pic">
