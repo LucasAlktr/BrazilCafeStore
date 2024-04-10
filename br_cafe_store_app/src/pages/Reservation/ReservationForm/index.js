@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './_style.scss';
+import { FaCheck } from "react-icons/fa";
 
 const ReservationForm = () => {
   const [reservationData, setReservationData] = useState({
@@ -109,7 +110,7 @@ const ReservationForm = () => {
             <option value="10 pm">10 pm</option>
           </select>
         </div>
-        <button type="submit">Submit</button>
+        <button type="submit">Reserve <FaCheck /></button>
       </form>
     </div>
   );
