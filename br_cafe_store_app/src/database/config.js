@@ -7,7 +7,7 @@ const firebaseConfig = {
   projectId: "brazilian-cafe",
   storageBucket: "brazilian-cafe.appspot.com",
   messagingSenderId: "774965999259",
-  appId: "1:774965999259:web:e39f5df50dbf2dcc6fb83e"
+  appId: "1:774965999259:web:e39f5df50dbf2dcc6fb83e",
 };
 
 const app = initializeApp(firebaseConfig);

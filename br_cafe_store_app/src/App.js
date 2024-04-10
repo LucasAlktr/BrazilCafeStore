@@ -23,11 +23,7 @@ function App() {
 
   return (
     <div>
-      {isLoading ? (
-        <Loading />
-      ) : (
-        <MySiteRoutes reservation={ reservation } />
-      )}
+      {isLoading ? <Loading /> : <MySiteRoutes reservation={reservation} />}
     </div>
   );
 }

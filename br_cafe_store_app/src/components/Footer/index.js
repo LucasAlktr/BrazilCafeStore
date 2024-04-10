@@ -1,5 +1,5 @@
-import React from 'react';
-import './_style.scss';
+import React from "react";
+import "./_style.scss";
 
 const Footer = () => {
   return (
@@ -31,7 +31,6 @@ const Footer = () => {
       <div className="copyright">
         <p>© 2024 - BrazilianCafe - Copyright</p>
       </div>
-
     </footer>
   );
 };

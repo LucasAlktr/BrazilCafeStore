@@ -53,7 +53,6 @@ const ReservationForm = ({ onAddReservation }) => {
         table: "",
         time: "",
       });
-      console.log("Reservation added successfully:", docRef.id);
     } catch (error) {
       console.error("Failed to add reservation:", error);
       setErrorMessage("Failed to add reservation. Please try again.");

@@ -21,7 +21,7 @@ const ReservationList = ({ reservation }) => {
         (item) => item.id !== reservationId
       );
       setReservationList(updatedReservationList);
-      setConfirmDelete(null); 
+      setConfirmDelete(null);
     } catch (error) {
       console.error("Failed to delete reservation:", error);
     } finally {
@@ -104,7 +104,7 @@ const ReservationList = ({ reservation }) => {
           </tbody>
         </table>
       </div>
-      
+
       {loading && (
         <div className="loading-message">Deleting reservation...</div>
       )}

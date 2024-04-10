@@ -5,8 +5,6 @@ import ReservationForm from "./ReservationForm";
 import { AiFillCalendar } from "react-icons/ai";
 
 const Reservation = ({ reservation }) => {
-  console.log("Reservation data in Reservation:", reservation);
-
   const [reservations, setReservations] = useState(reservation);
 
   const addReservation = (newReservation) => {

@@ -1,12 +1,11 @@
-import React from 'react';
-import { Routes, Route, HashRouter } from 'react-router-dom';
-import Home from '../pages/Home';
-import Menu from '../pages/Menu';
-import About from '../pages/About';
-import PageNotFound from '../pages/PageNotFound';
+import React from "react";
+import { Routes, Route, HashRouter } from "react-router-dom";
+import Home from "../pages/Home";
+import Menu from "../pages/Menu";
+import About from "../pages/About";
+import PageNotFound from "../pages/PageNotFound";
 
 const MySiteRoutes = ({ reservation }) => {
-  console.log("reservation in Routes:", reservation);
   return (
     <HashRouter>
       <Routes>
