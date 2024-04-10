@@ -1,11 +1,12 @@
 import React from "react";
 import "./_style.scss";
+import { CiViewList } from "react-icons/ci";
 
 const ReservationList = ({ reservation }) => {
   console.log("Reservation data in ReservationList:", reservation);
   return (
     <div className="reservation-table">
-      <h2>Your Reservation List</h2>
+      <h2>Your Reservation List <CiViewList /></h2>
       <table className="reservation-table">
         <thead>
           <tr>
