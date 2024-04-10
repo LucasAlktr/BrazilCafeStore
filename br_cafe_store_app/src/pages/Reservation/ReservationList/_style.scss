@@ -10,11 +10,12 @@
   .reservation-table th, .reservation-table td {
     border: 1px solid #ddd; 
     padding: 8px; 
-    text-align: left; 
+    text-align: -webkit-center;
   }
   
   .reservation-table th {
     background-color: #f2f2f2; 
+    text-align: center;
   }
 
   .reservation-table h2 {
@@ -24,4 +25,8 @@
   
   .reservation-table tr:nth-child(even) {
     background-color: #f2f2f2; 
+  }
+
+  .img-delete{
+    width: 40px;
   }

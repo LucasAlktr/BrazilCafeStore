@@ -18,9 +18,10 @@ const ReservationList = ({ reservation }) => {
           <tr>
             <th>Reservation Date (Year/Month/Day)</th>
             <th>Name</th>
-            <th>Number of People</th>
+            <th>People</th>
             <th>Table</th>
             <th>Time</th>
+            <th>Delete?</th>
           </tr>
         </thead>
         <tbody>
@@ -31,6 +32,7 @@ const ReservationList = ({ reservation }) => {
               <td>{item.reservationNumberOfPeople}</td>
               <td>{item.reservationTable}</td>
               <td>{item.reservationTime}</td>
+              <td><img className="img-delete" src="/assets/bin.png" alt="Delete" /></td>
             </tr>
           ))}
         </tbody>
