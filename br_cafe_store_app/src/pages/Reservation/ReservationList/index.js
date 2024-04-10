@@ -5,7 +5,7 @@ const ReservationList = ({ reservation }) => {
   console.log("Reservation data in ReservationList:", reservation);
   return (
     <div className="reservation-table">
-      <h2>Reservation List</h2>
+      <h2>Your Reservation List</h2>
       <table className="reservation-table">
         <thead>
           <tr>

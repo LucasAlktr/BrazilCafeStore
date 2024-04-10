@@ -3,6 +3,7 @@
 .reservation-section {
     @include center();
     @include text-space();
+    margin-bottom: 60px;
   
     h2 {
       @include title-2();

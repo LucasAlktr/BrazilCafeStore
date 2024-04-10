@@ -3,6 +3,7 @@ import './_style.scss';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Reservation from '../Reservation';
+import { BiCoffeeTogo } from "react-icons/bi";
 
 const Menu = ({reservation}) => {
   console.log("Reservation data in Menu:", reservation);
@@ -16,7 +17,7 @@ const Menu = ({reservation}) => {
       </main>
 
       <section className='menu-text'>
-        <h2>PRODUCTS</h2>
+        <h2>PRODUCTS <BiCoffeeTogo /></h2>
         <div className="cards">
           <div className="card">
             <picture><img src="./assets/coffee_cup.jpg" alt="Brazilian Espresso" /></picture>

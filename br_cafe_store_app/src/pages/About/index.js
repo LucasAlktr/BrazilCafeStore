@@ -3,6 +3,8 @@ import './_styles.scss';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import GoogleMapsAPI from '../../services/GoogleMapsAPI';
+import { IoIosPeople } from "react-icons/io";
+import { FaMapLocation } from "react-icons/fa6";
 
 
 const About = () => {
@@ -16,7 +18,7 @@ const About = () => {
       </main>
 
       <section className="about-section">
-        <h2>ABOUT US</h2>
+        <h2>ABOUT US <IoIosPeople /></h2>
         <p>
           <strong>We simple love coffee!</strong>
         </p>
@@ -30,7 +32,7 @@ const About = () => {
 
       <section>
         <div className='map-container'>
-          <h2>VISIT US:</h2>
+          <h2>VISIT US <FaMapLocation /></h2>
            <GoogleMapsAPI />
         </div>
       </section>

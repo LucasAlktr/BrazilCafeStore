@@ -3,6 +3,9 @@ import './_style.scss';
 
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import { GiCoffeeBeans } from "react-icons/gi";
+import { MdOutlinePlace } from "react-icons/md";
+import { FaPeopleRoof } from "react-icons/fa6";
 
 const Home = () => {
   return (
@@ -21,7 +24,7 @@ const Home = () => {
           />
         </picture>
         <div className="home-text">
-          <h2 className='sub-title'>OUR CAFE FLAVOUR</h2>
+          <h2 className='sub-title'>OUR CAFE FLAVOUR <GiCoffeeBeans /></h2>
           <p>
             <strong>Welcome to Brazilian Cafe!</strong>
           </p>
@@ -33,7 +36,7 @@ const Home = () => {
 
       <section className="home-place">
         <div className="home-text">
-          <h2 className='sub-title'>A PLACE TO BE</h2>
+          <h2 className='sub-title'>A PLACE TO BE <MdOutlinePlace /></h2>
           <p>
             <strong>A Place to Work, Connect, and Unwind.</strong>
           </p>
@@ -51,7 +54,7 @@ const Home = () => {
           <img src="./assets/aboutusimage.jpg" alt="About us" />
         </picture>
         <div className="home-text">
-          <h2 className='sub-title'>ABOUT US</h2>
+          <h2 className='sub-title'>ABOUT US <FaPeopleRoof /></h2>
           <p>
             <strong>From Our Family to Yours</strong>
           </p>
