@@ -24,7 +24,7 @@ const Home = () => {
           />
         </picture>
         <div className="home-text">
-          <h2 className='sub-title'>OUR CAFE FLAVOUR <GiCoffeeBeans /></h2>
+          <h2 className='sub-title'>OUR COFFEE FLAVOUR <GiCoffeeBeans /></h2>
           <p>
             <strong>Welcome to Brazilian Cafe!</strong>
           </p>
