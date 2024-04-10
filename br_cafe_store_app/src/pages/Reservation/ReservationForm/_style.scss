@@ -15,6 +15,11 @@
     display: grid;
     gap: 5px;
   }
+
+  .success-message{
+    color: green;
+    padding-bottom: 10px;
+  }
   
   label {
     font-weight: bold;

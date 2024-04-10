@@ -16,7 +16,7 @@ const ReservationList = ({ reservation }) => {
       <table className="reservation-table">
         <thead>
           <tr>
-            <th>Reservation Date</th>
+            <th>Reservation Date (Year/Month/Day)</th>
             <th>Name</th>
             <th>Number of People</th>
             <th>Table</th>
