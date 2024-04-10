@@ -17,7 +17,6 @@ const ReservationList = ({ reservation }) => {
           </tr>
         </thead>
         <tbody>
-          {/* Mapeie os dados de reserva e exiba-os conforme necessário */}
           {reservation.map((item, index) => (
             <tr key={index}>
               <td>{item.reservationDate}</td>
