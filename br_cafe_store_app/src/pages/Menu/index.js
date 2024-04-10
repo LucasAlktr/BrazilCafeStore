@@ -1,11 +1,11 @@
 import React from 'react';
-
 import './_style.scss';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Reservation from '../Reservation';
 
-const Menu = () => {
+const Menu = ({reservation}) => {
+  console.log("Reservation data in Menu:", reservation);
   return (
     <div>
       <Header />
@@ -62,7 +62,7 @@ const Menu = () => {
         </div>
       </section>
 
-      <Reservation />
+      <Reservation reservation={reservation}/>
 
       <Footer />
     </div>

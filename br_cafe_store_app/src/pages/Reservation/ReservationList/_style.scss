@@ -1,0 +1,27 @@
+@import "../../../scss/global";
+
+.reservation-table {
+    margin: 0 auto; 
+    border-collapse: collapse; 
+    width: 80%; 
+    padding: 40px 20px;
+  }
+  
+  .reservation-table th, .reservation-table td {
+    border: 1px solid #ddd; 
+    padding: 8px; 
+    text-align: left; 
+  }
+  
+  .reservation-table th {
+    background-color: #f2f2f2; 
+  }
+
+  .reservation-table h2 {
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  
+  .reservation-table tr:nth-child(even) {
+    background-color: #f2f2f2; 
+  }

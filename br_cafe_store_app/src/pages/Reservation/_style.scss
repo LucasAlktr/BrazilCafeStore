@@ -1,0 +1,12 @@
+@import "../../scss/global";
+
+.reservation-section {
+    @include center();
+    @include text-space();
+  
+    h2 {
+      @include title-2();
+    }
+  }
+
+  
