@@ -1,9 +1,15 @@
 import React from "react";
 import "./_style.scss";
 import { CiViewList } from "react-icons/ci";
+import { useState, useEffect } from "react";
 
 const ReservationList = ({ reservation }) => {
   console.log("Reservation data in ReservationList:", reservation);
+  const [reservationList, setReservationList] = useState([]);
+
+  useEffect(() => {
+    setReservationList(reservation);
+  }, [reservation]);
   return (
     <div className="reservation-table">
       <h2>Your Reservation List <CiViewList /></h2>
@@ -18,7 +24,7 @@ const ReservationList = ({ reservation }) => {
           </tr>
         </thead>
         <tbody>
-          {reservation.map((item, index) => (
+          {reservationList.map((item, index) => (
             <tr key={index}>
               <td>{item.reservationDate}</td>
               <td>{item.reservationName}</td>

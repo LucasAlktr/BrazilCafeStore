@@ -12,7 +12,6 @@ function App() {
     (async () => {
       try {
         const data = await database.load();
-        console.log("Data:", data);
         setReservation(data);
       } catch (error) {
         console.error("Failed to load tasks:", error);

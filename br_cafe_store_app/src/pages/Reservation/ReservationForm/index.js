@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import './_style.scss';
+import "./_style.scss";
 import { FaCheck } from "react-icons/fa";
+import { save } from "../../../database";
 
-const ReservationForm = () => {
+const ReservationForm = ({ onAddReservation }) => {
   const [reservationData, setReservationData] = useState({
     reservationDate: "",
     numberOfPeople: "",
@@ -19,20 +20,45 @@ const ReservationForm = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("Form submitted with data:", reservationData);
-    setReservationData({
-      reservationDate: "",
-      numberOfPeople: "",
-      name: "",
-      table: "",
-      time: "",
-    });
+    const formattedDate = formatDate(reservationData.reservationDate);
+    try {
+      const docRef = await save({
+        reservationDate: formattedDate,
+        reservationName: reservationData.name,
+        reservationNumberOfPeople: parseInt(reservationData.numberOfPeople),
+        reservationTable: reservationData.table,
+        reservationTime: reservationData.time,
+      });
+      onAddReservation({
+        id: docRef.id,
+        reservationDate: formattedDate,
+        reservationName: reservationData.name,
+        reservationNumberOfPeople: parseInt(reservationData.numberOfPeople),
+        reservationTable: reservationData.table,
+        reservationTime: reservationData.time,
+      });
+      setReservationData({
+        reservationDate: "",
+        numberOfPeople: "",
+        name: "",
+        table: "",
+        time: "",
+      });
+    } catch (error) {
+      console.error("Failed to add reservation:", error);
+    }
+  };
+
+  const formatDate = (dateString) => {
+    const [year, month, day] = dateString.split("-");
+    return `${year}/${month}/${day}`;
   };
 
   return (
     <div className="reservation-form-container">
+      <h2>Make a Reservation</h2>
       <form onSubmit={handleSubmit} className="reservation-form">
         <div className="form-group">
           <label htmlFor="reservationDate">Reservation Date:</label>
