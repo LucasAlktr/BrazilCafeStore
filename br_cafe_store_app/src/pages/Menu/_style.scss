@@ -79,4 +79,28 @@
       font-size: 2.5rem;
     }
   }
+
+  .delivery-order {
+    @include center();
+    @include text-space();
+  
+    h2 {
+      @include title-2();
+    }
+  }
+
+  .delivery-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .uber-logo{
+    width: 105px;
+  }
+
+  .doordash-logo{
+    width: 100px;
+  }
   

@@ -98,6 +98,24 @@ const Menu = ({ reservation }) => {
         </div>
       </section>
 
+      <section>
+        <div className="delivery-order">
+          <h2>ORDER NOW</h2>
+        </div>
+        <div className="delivery-logo">
+            <img
+              className="uber-logo"
+              src="assets/ubereats-logo.png"
+              alt="UberEats"
+            />
+            <img
+              className="doordash-logo"
+              src="assets/doordash-logo.png"
+              alt="Doordash"
+            />
+        </div>
+      </section>
+
       <Reservation reservation={reservation} />
 
       <Footer />
