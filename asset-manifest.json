@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/BrazilCafeStore/br_cafe_store_app/static/css/main.bf52c610.css",
+    "main.js": "/BrazilCafeStore/br_cafe_store_app/static/js/main.fb3c8ca7.js",
+    "static/js/453.81efd244.chunk.js": "/BrazilCafeStore/br_cafe_store_app/static/js/453.81efd244.chunk.js",
+    "static/media/banner-about-us.jpg": "/BrazilCafeStore/br_cafe_store_app/static/media/banner-about-us.05e40d46e6a453cd1c0c.jpg",
+    "static/media/not-found-page.jpg": "/BrazilCafeStore/br_cafe_store_app/static/media/not-found-page.a1894f50d84b665075ae.jpg",
+    "static/media/banner-store.jpeg": "/BrazilCafeStore/br_cafe_store_app/static/media/banner-store.dbd20d2adb1a1ca0ef88.jpeg",
+    "static/media/banner-our-flavour.jpg": "/BrazilCafeStore/br_cafe_store_app/static/media/banner-our-flavour.80f98b137e8876046b17.jpg",
+    "index.html": "/BrazilCafeStore/br_cafe_store_app/index.html",
+    "main.bf52c610.css.map": "/BrazilCafeStore/br_cafe_store_app/static/css/main.bf52c610.css.map",
+    "main.fb3c8ca7.js.map": "/BrazilCafeStore/br_cafe_store_app/static/js/main.fb3c8ca7.js.map",
+    "453.81efd244.chunk.js.map": "/BrazilCafeStore/br_cafe_store_app/static/js/453.81efd244.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf52c610.css",
+    "static/js/main.fb3c8ca7.js"
+  ]
+}
